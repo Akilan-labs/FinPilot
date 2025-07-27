@@ -1,4 +1,4 @@
-#  FIN PILOT – Your Personal Financial Independence Co-Pilot  
+#  FIN PILOT – Your Personal Assistive AI agent for finance management   
 **FIN PILOT is an AI-powered personal financial assistant designed to revolutionize the way individuals manage money. Unlike traditional finance trackers that rely on manual entry and static dashboards, FIN PILOT offers an intelligent, conversational, and simulation-based experience — making personal finance interactive, predictive, and privacy-first.**
 
 ---
