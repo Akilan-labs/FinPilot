@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinPilot: AI Financial Advisor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': {
+                '50': '#f0f7ff',
+                '100': '#e0effe',
+                '200': '#badffd',
+                '300': '#7cc8fc',
+                '400': '#38acf6',
+                '500': '#0e94e4',
+                '600': '#027ac3',
+                '700': '#01619f',
+                '800': '#025282',
+                '900': '#06456c',
+                '950': '#042c48',
+              },
+              'background': '#f8f9fa', // Clean, off-white background
+              'card': '#ffffff',
+              'card-border': '#e9ecef',
+              'text-primary': '#212529', // Dark charcoal for main text
+              'text-secondary': '#6c757d',
+              'accent-pink': '#e7337e',
+              'accent-violet': '#8b5cf6',
+            },
+            boxShadow: {
+               'subtle': '0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05)',
+               'medium': '0 10px 15px -3px rgb(0 0 0 / 0.07), 0 4px 6px -4px rgb(0 0 0 / 0.07)',
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.11.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "recharts": "https://esm.sh/recharts@^3.1.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.7.1",
+    "uuid": "https://esm.sh/uuid@^9.0.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-text-primary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
