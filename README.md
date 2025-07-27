@@ -93,10 +93,11 @@ This ensures privacy, speed, and control — making authentication invisible but
 2. Deploy OTH logic (token verification, expiry, and reauth).
 3. Use Firestore to store device token metadata securely.
 
-###  Dashboard (Optional)
-1. Open `Looker Studio` and connect it to your Sheet/Firestore data.
-2. Customize views: Net Worth Timeline, FIRE Readiness, Risk Alerts.
-3. Publish and share access-restricted dashboards.
+###  Dashboard 
+
+1. Customize views: Net Worth Timeline, FIRE Readiness, Risk Alerts.
+2. Publish and share access-restricted dashboards.
+3. 
 
 
 
